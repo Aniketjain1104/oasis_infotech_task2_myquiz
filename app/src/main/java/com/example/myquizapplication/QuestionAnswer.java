@@ -1,0 +1,25 @@
+package com.example.myquizapplication;
+
+import java.io.OptionalDataException;
+
+public class QuestionAnswer {
+    public static String choices[][] = {
+            {"Google", "Apple", "Nokia", "Samsung"},
+            {"Java", "kotlin", "Notepad", "Python"},
+            {"Facebook", "Whatsapp", "Instagram", "Youtube"},
+            {"Google", "Apple", "Nokia", "Samsung"},
+    };
+    public static String question[]={
+            "Which company owns the android?",
+            "Which one is not the programming language?",
+            "Where you are watching this video?",
+            "Which company owns the Apple?",
+    };
+    public static String correctAnswers[] = {
+            "Google",
+            "Notepad",
+            "Youtube",
+            "Apple",
+    };
+
+}
